@@ -1,0 +1,22 @@
+.categorias{
+    margin-top: 5rem;
+    
+}
+.categoria{
+    margin-top: 4rem;
+}
+
+.cabecalho__categoria{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.categoria__titulo{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.categoria__span{
+    font-weight: bold;
+    color: #2A7AE4;
+}

@@ -1,0 +1,31 @@
+.categoria__lista--produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-around;
+}
+
+.produto__img{
+    width: 176px;
+    height: 174px;
+}
+.produto__preco{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.produto__nome{
+    margin-top: 4px;
+}
+.produto a{
+    text-decoration: none;
+    color:#2A7AE4;
+    font-weight: bold;
+}

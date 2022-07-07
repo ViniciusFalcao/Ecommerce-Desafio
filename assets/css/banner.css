@@ -1,0 +1,30 @@
+.banner{
+    background-image: url(../imagens/banner.png);
+    color: white;
+}
+.banner{
+    height: 352px;
+}
+.descricao__banner{
+    font-weight: bold;
+    position: relative;
+}
+.titulo__banner{
+    font-size: 2.5rem;
+}
+.p__banner{
+    margin-bottom: 2rem;
+}
+.botao__banner{
+    text-decoration: none;
+    color: white;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #2A7AE4;
+    padding: 15px 8px;
+}
+.descricao__conteudo{
+    position: absolute;
+    bottom: 40px;
+    
+}
