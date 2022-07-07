@@ -1,0 +1,8 @@
+.container{
+    margin: 0px auto;
+    width: 1136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}

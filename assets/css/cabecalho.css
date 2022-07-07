@@ -1,3 +1,23 @@
 .cabecalho{
-    
+    height: 115px;
+   
+}
+.cabecalho__div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.botao__login{
+    border:solid 1px #2A7AE4;
+    width: 182px;
+    height: 1.2rem;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #2A7AE4;
+    vertical-align: middle;
+}
+.busca{
+    width: 50%;
 }
