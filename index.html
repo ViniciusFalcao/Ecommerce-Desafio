@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./assets/css/banner.css">
     <link rel="stylesheet" href="./assets/css/categorias.css">
     <link rel="stylesheet" href="./assets/css/produtos.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
 
     <title>Alura Geek</title>
 </head>
@@ -39,8 +41,8 @@
             <div class="container descricao__banner">
                 <div class="descricao__conteudo">
                     <h1 class="titulo__banner">Dezembro Promocional</h2>
-                    <p class="p__banner">Produtos selecionados com 33% de desconto</p>
-                    <a href="" class="botao__banner">Ver consoles</a>
+                        <p class="p__banner">Produtos selecionados com 33% de desconto</p>
+                        <a href="#" class="botao__banner">Ver consoles</a>
                 </div>
 
             </div>
@@ -50,7 +52,7 @@
             <div class="categoria">
                 <div class="cabecalho__categoria">
                     <h2 class="categoria__titulo">Star Wars</h2>
-                    <span class="categoria__span">Ver Tudo</span>
+                    <a class="categoria__a" href="#">Ver Tudo</a>
                 </div>
                 <ul class="categoria__lista--produtos">
                     <li class="produto">
@@ -95,7 +97,7 @@
             <div class="categoria">
                 <div class="cabecalho__categoria">
                     <h2 class="categoria__titulo">Consoles</h2>
-                    <span class="categoria__span">Ver Tudo</span>
+                    <a class="categoria__a" href="#">Ver Tudo</a>
                 </div>
                 <ul class="categoria__lista--produtos">
                     <li class="produto">
@@ -139,7 +141,7 @@
             <div class="categoria">
                 <div class="cabecalho__categoria">
                     <h2 class="categoria__titulo">Diversos</h2>
-                    <span class="categoria__span">Ver Tudo</span>
+                    <a class="categoria__a" href="#">Ver Tudo</a>
                 </div>
                 <ul class="categoria__lista--produtos">
                     <li class="produto">
@@ -181,7 +183,50 @@
                 </ul>
             </div>
         </section>
+        <section class="contato">
+            <div class="container contato__div">
+                <div class="logo__contato">
+                    <img src="./assets/imagens/Logo.png" alt="">
+
+                </div>
+                <div class="informacoes__contato">
+                    <div class="div__informacoes">
+                        <p class="p__informacoes"><a href="#" class="a__informacoes">Quem somos nós</a></p>
+                        <p class="p__informacoes"><a href="#" class="a__informacoes"> Política de privacidade</a></p>
+                        <p class="p__informacoes"><a href="#" class="a__informacoes"> Programa fidelidade</a></p>
+                        <p class="p__informacoes"><a href="#" class="a__informacoes">Nossas lojas</a></p>
+                        <p class="p__informacoes"><a href="#" class="a__informacoes"> Quero ser franqueado</a></p>
+                        <p class="p__informacoes"><a href="#" class="a__informacoes">Anuncie aqui</a></p>
+
+                    </div>
+
+
+                </div>
+                <div class="form__contato">
+                    <form action="" class="formulario__div">
+                        <div class="div__form">
+                            <span class="titulo__form">Fale conosco</span>
+                            <label class="labels__form" for="">Nome: <input class="input__form" type="text"
+                                    placeholder="André Lisboa"></label>
+                            <label class="labels__form" for=""> <span style="visibility:hidden ;">Nome:</span><textarea
+                                    placeholder="Mensagem" class="input__form" name="" id="" cols="30"
+                                    rows="10"></textarea></label>
+                            <button type="submit" class="button__form">Enviar</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+        </section>
     </main>
+    <footer class="rodape">
+        <p class="autor">Desenvolvido por Vinicius Falcão</p>
+        <p class="data">2022</p>
+    </footer>
 </body>
 
 </html>
