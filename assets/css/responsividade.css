@@ -1,0 +1,56 @@
+
+/*celular*/
+@media screen and (max-width:480px) {
+    .container{
+        width: auto;
+        margin: 0px 15px;
+    }
+    .busca{
+        display: none;
+    }
+    
+    .botao__login{
+        width: 156px;
+    }
+    .categoria__lista--produtos{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .produto{
+        width: 50%;
+
+    }
+    .contato{
+        height: 650px;
+    }
+    .contato__div{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 45% 45%;
+    }
+    .logo__contato{
+        text-align: center;
+        
+    }
+    .informacoes__contato{
+        justify-content: center;
+    }
+    .titulo__form{
+        margin: 0px auto;
+    }
+    .input__form:nth-child(2){
+        height: 4rem;
+    }
+    
+}
+/*tablet*/
+@media screen and (min-width:480px) and (max-width:1024px) {
+   
+    
+
+}
+
+
+
+/*pc ou tv*/
+
