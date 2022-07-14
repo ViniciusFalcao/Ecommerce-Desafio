@@ -1,3 +1,11 @@
+.categoria__lista--produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+
 .categorias{
     margin-top: 5rem;
     
@@ -20,3 +28,4 @@
     font-weight: bold;
     color: #2A7AE4;
 }
+

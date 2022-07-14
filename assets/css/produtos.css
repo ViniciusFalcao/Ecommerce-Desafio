@@ -1,10 +1,4 @@
-.categoria__lista--produtos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 2rem;
 
-}
 
 .produto{
     display: flex;
