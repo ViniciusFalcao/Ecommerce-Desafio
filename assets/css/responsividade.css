@@ -3,18 +3,20 @@
 @media screen and (max-width:480px) {
     .container{
         width: auto;
-        margin: 0px 15px;
+        margin: 0px 8px;
     }
     .busca{
         display: none;
     }
-    
     .botao__login{
-        width: 156px;
+        width: 40%;
     }
     .categoria__lista--produtos{
         display: flex;
         flex-flow: row wrap;
+    }
+    .cabecalho__categoria{
+        width: 95vw;
     }
     .produto{
         width: 50%;
@@ -41,12 +43,31 @@
     .input__form:nth-child(2){
         height: 4rem;
     }
+    .logo{
+        width: 90%;
+    }
+    .container__cabecalho{
+        width: 98vw;
+        justify-content: center;
+    }
+    
     
 }
 /*tablet*/
 @media screen and (min-width:480px) and (max-width:1024px) {
-   
-    
+    .container{
+        width: auto;
+    }
+    .busca{
+        display: none;
+    }
+    .categoria__lista--produtos{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .produto{
+        width: 25%;
+    }
 
 }
 
