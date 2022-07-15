@@ -4,8 +4,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 .rodape p{
     text-align: center;
     
+}
+.data{
+    margin-top: 4px;
 }

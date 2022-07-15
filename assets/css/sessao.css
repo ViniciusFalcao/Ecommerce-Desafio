@@ -1,0 +1,61 @@
+main{
+    background-color: #F5F5F5;
+}
+.cabecalho{
+    height: 100px;
+}
+
+.conteudo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 310px;
+    
+}
+.titulo{
+    margin-top: 50px;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.email{
+    margin-bottom: 1.5rem;
+    width: 423px;
+    height: 2rem;
+    border: none;
+    padding: 5px 2px;
+}
+.email:focus,.senha:focus{
+    outline: none;
+}
+.email::placeholder{
+    
+    font-size: 0.9rem;
+}
+.senha{
+    margin-bottom: 1.5rem;
+    width: 423px;
+    height: 2rem;
+    border: none;
+    padding: 5px 2px;
+
+}
+.senha::placeholder{
+    
+    font-size: 0.9rem;
+}
+.enviar{
+    width: 428px;
+    background-color: #2A7AE4;
+    height: 3rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    
+    
+}
+.contato{
+    background-color: #EAF2FD;
+    margin-top: 0;
+    padding-top: 2rem;
+}
