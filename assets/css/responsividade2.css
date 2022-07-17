@@ -1,0 +1,113 @@
+
+/*celular*/
+@media screen and (max-width:480px) {
+    .container{
+        width: auto;
+        margin:0px 8px;
+    }
+    .busca{
+        display: none;
+    }
+    .botao__login{
+        width: 40%;
+    }
+    .cabecalho,main,.contato{
+        width: auto;
+    }
+    .email,.senha{
+        max-width: 80vw;
+    }
+    .enviar{
+        max-width: 40vw;
+    }
+    .contato{
+        height: 650px;
+    }
+    .contato__div{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 45% 45%;
+    }
+    .logo__contato{
+        text-align: center;
+        
+    }
+    .informacoes__contato{
+        justify-content: center;
+    }
+    .titulo__form{
+        margin: 0px auto;
+    }
+    .input__form{
+        
+    }
+    .input__form:nth-child(2){
+        height: 4rem;
+    }
+    .logo{
+        width: 70%;
+    }
+    .container__cabecalho{
+        width: auto;
+        justify-content: center;
+    }
+}
+/*tablet*/
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .container{
+        width: auto;
+        margin: 0px 12px;
+    }
+    .cabecalho{
+        height: 10vh;
+    }
+    .conteudo{
+        height: 45vh;
+    }
+    .contato{
+        height: 40vh;
+    }
+    .rodape{
+        height: 5vh;
+    }
+    .cabecalho,main,.contato{
+        width: auto;
+    }
+    .busca{
+        
+    }
+    .container__cabecalho{
+        justify-content: center;
+    }
+    .titulo{
+        margin-top: 123px;
+    }
+    .contato__div{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "info" "form";
+        grid-template-rows: 100%;
+    }
+    .form__contato{
+        grid-column: 2/2;
+        grid-template-rows: 1/1;
+    }
+    .informacoes__contato{
+        grid-column: 1/1;
+        grid-row: 1/2;
+        margin-top: 3rem;
+        justify-content: center;
+
+    }
+    .logo__contato{
+        grid-column: 1/1;
+        grid-row: 1/1;
+        margin-bottom: 3rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo__contato img{
+        margin: 0px auto;
+
+    }
+
+}
